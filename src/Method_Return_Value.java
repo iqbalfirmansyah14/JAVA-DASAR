@@ -1,0 +1,14 @@
+public class Method_Return_Value {
+    public static void main(String[] args) {
+
+        var result1 = sum(100, 100);
+        System.out.println(result1);
+
+        System.out.println(sum(200,100));
+    }
+
+    static int sum(int value1, int value2){
+        var total = value1 + value2;
+        return total;
+    }
+}
